@@ -1,2 +1,3 @@
-# rust_compile_config_files
+Rust compile config files
+-------------------------
 Default files to compile Rust projects
