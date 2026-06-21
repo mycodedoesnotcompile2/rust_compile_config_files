@@ -8,8 +8,8 @@ image = "ghcr.io/cross-rs/aarch64-linux-android:main"
 [target.aarch64-unknown-linux-gnu]
 image = "ghcr.io/cross-rs/aarch64-unknown-linux-gnu:main"
 
-[target.aarch64-unknown-linux-gnu.centos]
-image = "ghcr.io/cross-rs/aarch64-unknown-linux-gnu:centos-7"
+#[target.aarch64-unknown-linux-gnu.centos]
+#image = "ghcr.io/cross-rs/aarch64-unknown-linux-gnu:centos-7"
 
 [target.aarch64-unknown-linux-musl]
 image = "ghcr.io/cross-rs/aarch64-unknown-linux-musl:main"
@@ -194,8 +194,8 @@ image = "ghcr.io/cross-rs/x86_64-unknown-netbsd:main"
 [target.x86_64-unknown-linux-gnu]
 image = "ghcr.io/cross-rs/x86_64-unknown-linux-gnu:main"
 
-[target.x86_64-unknown-linux-gnu.centos]
-image = "ghcr.io/cross-rs/x86_64-unknown-linux-gnu:centos-7"
+#[target.x86_64-unknown-linux-gnu.centos]
+#image = "ghcr.io/cross-rs/x86_64-unknown-linux-gnu:centos-7"
 
 [target.x86_64-unknown-linux-musl]
 image = "ghcr.io/cross-rs/x86_64-unknown-linux-musl:main"
