@@ -24,3 +24,6 @@ image = "ghcr.io/cross-rs/x86_64-pc-solaris:main"
 
 [target.x86_64-unknown-illumos]
 image = "ghcr.io/cross-rs/x86_64-unknown-illumos:main"
+
+[target.powerpc64le-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/powerpc64le-unknown-linux-gnu:main"
