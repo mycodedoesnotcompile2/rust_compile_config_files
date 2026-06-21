@@ -1,7 +1,6 @@
 # =========================
 # AArch64
 # =========================
-
 [target.aarch64-linux-android]
 image = "ghcr.io/cross-rs/aarch64-linux-android:main"
 
@@ -18,7 +17,6 @@ image = "ghcr.io/cross-rs/aarch64-unknown-linux-musl:main"
 # =========================
 # ARM
 # =========================
-
 [target.arm-linux-androideabi]
 image = "ghcr.io/cross-rs/arm-linux-androideabi:main"
 
@@ -65,7 +63,6 @@ image = "ghcr.io/cross-rs/thumbv7neon-unknown-linux-gnueabihf:main"
 # =========================
 # x86 / i686 / i586
 # =========================
-
 [target.i586-unknown-linux-gnu]
 image = "ghcr.io/cross-rs/i586-unknown-linux-gnu:main"
 
@@ -88,7 +85,6 @@ image = "ghcr.io/cross-rs/i686-unknown-linux-gnu:main"
 # =========================
 # LoongArch
 # =========================
-
 [target.loongarch64-unknown-linux-gnu]
 image = "ghcr.io/cross-rs/loongarch64-unknown-linux-gnu:main"
 
@@ -99,7 +95,6 @@ image = "ghcr.io/cross-rs/loongarch64-unknown-linux-musl:main"
 # =========================
 # MIPS
 # =========================
-
 [target.mips-unknown-linux-gnu]
 image = "ghcr.io/cross-rs/mips-unknown-linux-gnu:main"
 
@@ -128,7 +123,6 @@ image = "ghcr.io/cross-rs/mipsel-unknown-linux-musl:main"
 # =========================
 # PowerPC
 # =========================
-
 [target.powerpc-unknown-linux-gnu]
 image = "ghcr.io/cross-rs/powerpc-unknown-linux-gnu:main"
 
@@ -142,7 +136,6 @@ image = "ghcr.io/cross-rs/powerpc64le-unknown-linux-gnu:main"
 # =========================
 # RISC-V
 # =========================
-
 [target.riscv64gc-unknown-linux-gnu]
 image = "ghcr.io/cross-rs/riscv64gc-unknown-linux-gnu:main"
 
@@ -153,7 +146,6 @@ image = "ghcr.io/cross-rs/riscv64gc-unknown-linux-musl:main"
 # =========================
 # Other architectures
 # =========================
-
 [target.s390x-unknown-linux-gnu]
 image = "ghcr.io/cross-rs/s390x-unknown-linux-gnu:main"
 
@@ -164,7 +156,6 @@ image = "ghcr.io/cross-rs/sparc64-unknown-linux-gnu:main"
 # =========================
 # Windows / Solaris / BSD
 # =========================
-
 [target.x86_64-pc-windows-gnu]
 image = "ghcr.io/cross-rs/x86_64-pc-windows-gnu:main"
 
@@ -190,7 +181,6 @@ image = "ghcr.io/cross-rs/x86_64-unknown-netbsd:main"
 # =========================
 # Linux x86_64
 # =========================
-
 [target.x86_64-unknown-linux-gnu]
 image = "ghcr.io/cross-rs/x86_64-unknown-linux-gnu:main"
 
@@ -204,7 +194,6 @@ image = "ghcr.io/cross-rs/x86_64-unknown-linux-musl:main"
 # =========================
 # WASM
 # =========================
-
 [target.wasm32-unknown-emscripten]
 image = "ghcr.io/cross-rs/wasm32-unknown-emscripten:main"
 
