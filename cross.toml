@@ -1,29 +1,223 @@
-[target.armv7-unknown-linux-gnueabihf]
-image = "ghcr.io/cross-rs/armv7-unknown-linux-gnueabihf:main"
+# =========================
+# AArch64
+# =========================
 
-[target.armv7-unknown-linux-musleabihf]
-image = "ghcr.io/cross-rs/armv7-unknown-linux-musleabihf:main"
+[target.aarch64-linux-android]
+image = "ghcr.io/cross-rs/aarch64-linux-android:main"
+
+[target.aarch64-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/aarch64-unknown-linux-gnu:main"
+
+[target.aarch64-unknown-linux-gnu.centos]
+image = "ghcr.io/cross-rs/aarch64-unknown-linux-gnu:centos-7"
+
+[target.aarch64-unknown-linux-musl]
+image = "ghcr.io/cross-rs/aarch64-unknown-linux-musl:main"
+
+
+# =========================
+# ARM
+# =========================
+
+[target.arm-linux-androideabi]
+image = "ghcr.io/cross-rs/arm-linux-androideabi:main"
+
+[target.arm-unknown-linux-gnueabi]
+image = "ghcr.io/cross-rs/arm-unknown-linux-gnueabi:main"
 
 [target.arm-unknown-linux-gnueabihf]
 image = "ghcr.io/cross-rs/arm-unknown-linux-gnueabihf:main"
 
+[target.arm-unknown-linux-musleabi]
+image = "ghcr.io/cross-rs/arm-unknown-linux-musleabi:main"
+
 [target.arm-unknown-linux-musleabihf]
 image = "ghcr.io/cross-rs/arm-unknown-linux-musleabihf:main"
 
-[target.s390x-unknown-linux-gnu-cross]
-image = "ghcr.io/cross-rs/s390x-unknown-linux-gnu-cross:main"
+[target.armv5te-unknown-linux-gnueabi]
+image = "ghcr.io/cross-rs/armv5te-unknown-linux-gnueabi:main"
 
-[target.x86_64-unknown-netbsd]
-image = "ghcr.io/cross-rs/x86_64-unknown-netbsd:main"
+[target.armv5te-unknown-linux-musleabi]
+image = "ghcr.io/cross-rs/armv5te-unknown-linux-musleabi:main"
 
-[target.x86_64-unknown-freebsd]
-image = "ghcr.io/cross-rs/x86_64-unknown-freebsd:main"
+[target.armv7-linux-androideabi]
+image = "ghcr.io/cross-rs/armv7-linux-androideabi:main"
+
+[target.armv7-unknown-linux-gnueabi]
+image = "ghcr.io/cross-rs/armv7-unknown-linux-gnueabi:main"
+
+[target.armv7-unknown-linux-gnueabihf]
+image = "ghcr.io/cross-rs/armv7-unknown-linux-gnueabihf:main"
+
+[target.armv7-unknown-linux-musleabi]
+image = "ghcr.io/cross-rs/armv7-unknown-linux-musleabi:main"
+
+[target.armv7-unknown-linux-musleabihf]
+image = "ghcr.io/cross-rs/armv7-unknown-linux-musleabihf:main"
+
+[target.thumbv7neon-linux-androideabi]
+image = "ghcr.io/cross-rs/thumbv7neon-linux-androideabi:main"
+
+[target.thumbv7neon-unknown-linux-gnueabihf]
+image = "ghcr.io/cross-rs/thumbv7neon-unknown-linux-gnueabihf:main"
+
+
+# =========================
+# x86 / i686 / i586
+# =========================
+
+[target.i586-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/i586-unknown-linux-gnu:main"
+
+[target.i586-unknown-linux-musl]
+image = "ghcr.io/cross-rs/i586-unknown-linux-musl:main"
+
+[target.i686-unknown-freebsd]
+image = "ghcr.io/cross-rs/i686-unknown-freebsd:main"
+
+[target.i686-linux-android]
+image = "ghcr.io/cross-rs/i686-linux-android:main"
+
+[target.i686-pc-windows-gnu]
+image = "ghcr.io/cross-rs/i686-pc-windows-gnu:main"
+
+[target.i686-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/i686-unknown-linux-gnu:main"
+
+
+# =========================
+# LoongArch
+# =========================
+
+[target.loongarch64-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/loongarch64-unknown-linux-gnu:main"
+
+[target.loongarch64-unknown-linux-musl]
+image = "ghcr.io/cross-rs/loongarch64-unknown-linux-musl:main"
+
+
+# =========================
+# MIPS
+# =========================
+
+[target.mips-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/mips-unknown-linux-gnu:main"
+
+[target.mips-unknown-linux-musl]
+image = "ghcr.io/cross-rs/mips-unknown-linux-musl:main"
+
+[target.mips64-unknown-linux-gnuabi64]
+image = "ghcr.io/cross-rs/mips64-unknown-linux-gnuabi64:main"
+
+[target.mips64-unknown-linux-muslabi64]
+image = "ghcr.io/cross-rs/mips64-unknown-linux-muslabi64:main"
+
+[target.mips64el-unknown-linux-gnuabi64]
+image = "ghcr.io/cross-rs/mips64el-unknown-linux-gnuabi64:main"
+
+[target.mips64el-unknown-linux-muslabi64]
+image = "ghcr.io/cross-rs/mips64el-unknown-linux-muslabi64:main"
+
+[target.mipsel-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/mipsel-unknown-linux-gnu:main"
+
+[target.mipsel-unknown-linux-musl]
+image = "ghcr.io/cross-rs/mipsel-unknown-linux-musl:main"
+
+
+# =========================
+# PowerPC
+# =========================
+
+[target.powerpc-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/powerpc-unknown-linux-gnu:main"
+
+[target.powerpc64-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/powerpc64-unknown-linux-gnu:main"
+
+[target.powerpc64le-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/powerpc64le-unknown-linux-gnu:main"
+
+
+# =========================
+# RISC-V
+# =========================
+
+[target.riscv64gc-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/riscv64gc-unknown-linux-gnu:main"
+
+[target.riscv64gc-unknown-linux-musl]
+image = "ghcr.io/cross-rs/riscv64gc-unknown-linux-musl:main"
+
+
+# =========================
+# Other architectures
+# =========================
+
+[target.s390x-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/s390x-unknown-linux-gnu:main"
+
+[target.sparc64-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/sparc64-unknown-linux-gnu:main"
+
+
+# =========================
+# Windows / Solaris / BSD
+# =========================
+
+[target.x86_64-pc-windows-gnu]
+image = "ghcr.io/cross-rs/x86_64-pc-windows-gnu:main"
 
 [target.x86_64-pc-solaris]
 image = "ghcr.io/cross-rs/x86_64-pc-solaris:main"
 
+[target.sparcv9-sun-solaris]
+image = "ghcr.io/cross-rs/sparcv9-sun-solaris:main"
+
+[target.x86_64-unknown-freebsd]
+image = "ghcr.io/cross-rs/x86_64-unknown-freebsd:main"
+
+[target.x86_64-unknown-dragonfly]
+image = "ghcr.io/cross-rs/x86_64-unknown-dragonfly:main"
+
 [target.x86_64-unknown-illumos]
 image = "ghcr.io/cross-rs/x86_64-unknown-illumos:main"
 
-[target.powerpc64le-unknown-linux-gnu]
-image = "ghcr.io/cross-rs/powerpc64le-unknown-linux-gnu:main"
+[target.x86_64-unknown-netbsd]
+image = "ghcr.io/cross-rs/x86_64-unknown-netbsd:main"
+
+
+# =========================
+# Linux x86_64
+# =========================
+
+[target.x86_64-unknown-linux-gnu]
+image = "ghcr.io/cross-rs/x86_64-unknown-linux-gnu:main"
+
+[target.x86_64-unknown-linux-gnu.centos]
+image = "ghcr.io/cross-rs/x86_64-unknown-linux-gnu:centos-7"
+
+[target.x86_64-unknown-linux-musl]
+image = "ghcr.io/cross-rs/x86_64-unknown-linux-musl:main"
+
+
+# =========================
+# WASM
+# =========================
+
+[target.wasm32-unknown-emscripten]
+image = "ghcr.io/cross-rs/wasm32-unknown-emscripten:main"
+
+
+# =========================
+# Bare metal (no cross images)
+# =========================
+
+# These are intentionally omitted:
+# thumbv6m-none-eabi
+# thumbv7em-none-eabi
+# thumbv7em-none-eabihf
+# thumbv7m-none-eabi
+# thumbv8m.base-none-eabi
+# thumbv8m.main-none-eabi
+# thumbv8m.main-none-eabihf
