@@ -81,6 +81,8 @@ image = "ghcr.io/cross-rs/i686-pc-windows-gnu:main"
 [target.i686-unknown-linux-gnu]
 image = "ghcr.io/cross-rs/i686-unknown-linux-gnu:main"
 
+[target.i686-unknown-linux-musl]
+image = "ghcr.io/cross-rs/i686-unknown-linux-musl:main"
 
 # =========================
 # LoongArch
