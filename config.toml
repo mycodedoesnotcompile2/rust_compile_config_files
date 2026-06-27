@@ -1,12 +1,20 @@
 [target.armv7-unknown-linux-gnueabihf]
 linker = "arm-linux-gnueabihf-gcc"
+
 [target.armv7-unknown-linux-musleabihf]
 linker = "arm-linux-gnueabihf-gcc"
+
 [target.arm-unknown-linux-gnueabihf]
 linker = "arm-linux-gnueabihf-gcc"
+
 [target.arm-unknown-linux-musleabihf]
 linker = "arm-linux-gnueabihf-gcc"
+
+[target.mipsel-unknown-linux-musl]
+linker = "mipsel-linux-musl-gcc"
+
 [target.riscv64gc-unknown-linux-gnu]
 linker = "riscv64-linux-gnu-gcc"
+
 [target.s390x-unknown-linux-gnu]
 linker = "s390x-linux-gnu-gcc"
