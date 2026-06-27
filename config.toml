@@ -16,6 +16,12 @@ linker = "mipsel-linux-gnu-gcc"
 [target.mipsel-unknown-linux-musl]
 linker = "mipsel-linux-musl-gcc"
 
+[target.mips64el-unknown-linux-gnuabi64]
+linker = "mips64el-linux-gnuabi64-gcc"
+
+[target.mips64el-unknown-linux-muslabi64]
+linker = "mips64el-linux-muslabi64-gcc"
+
 [target.riscv64gc-unknown-linux-gnu]
 linker = "riscv64-linux-gnu-gcc"
 
