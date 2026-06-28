@@ -27,3 +27,12 @@ linker = "riscv64-linux-gnu-gcc"
 
 [target.s390x-unknown-linux-gnu]
 linker = "s390x-linux-gnu-gcc"
+
+[target.i686-win7-windows-gnu]
+linker = "i686-w64-mingw32-gcc"
+ar = "i686-w64-mingw32-ar"
+
+[env]
+CC_i686_win7_windows_gnu = "i686-w64-mingw32-gcc"
+CXX_i686_win7_windows_gnu = "i686-w64-mingw32-g++"
+AR_i686_win7_windows_gnu = "i686-w64-mingw32-ar
