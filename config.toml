@@ -35,4 +35,4 @@ ar = "i686-w64-mingw32-ar"
 [env]
 CC_i686_win7_windows_gnu = "i686-w64-mingw32-gcc"
 CXX_i686_win7_windows_gnu = "i686-w64-mingw32-g++"
-AR_i686_win7_windows_gnu = "i686-w64-mingw32-ar
+AR_i686_win7_windows_gnu = "i686-w64-mingw32-ar"
