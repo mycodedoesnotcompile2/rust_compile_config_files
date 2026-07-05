@@ -62,3 +62,6 @@ ar = "i686-w64-mingw32-ar"
 CC_i686_win7_windows_gnu = "i686-w64-mingw32-gcc"
 CXX_i686_win7_windows_gnu = "i686-w64-mingw32-g++"
 AR_i686_win7_windows_gnu = "i686-w64-mingw32-ar"
+
+CC_loongarch64_unknown_linux_gnu = "loongarch64-linux-gnu-gcc-14"
+AR_loongarch64_unknown_linux_gnu = "loongarch64-linux-gnu-ar"
