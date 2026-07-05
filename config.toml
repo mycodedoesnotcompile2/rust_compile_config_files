@@ -11,7 +11,7 @@ linker = "arm-linux-gnueabihf-gcc"
 linker = "arm-linux-gnueabihf-gcc"
 
 [target.loongarch64-unknown-linux-gnu]
-linker = "loongarch64-linux-gnu-gcc"
+linker = "loongarch64-linux-gnu-gcc-14"
 ar = "loongarch64-linux-gnu-ar"
 
 [target.mipsel-unknown-linux-gnu]
