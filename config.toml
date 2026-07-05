@@ -37,17 +37,9 @@ ar = "powerpc-linux-gnu-ar"
 linker = "powerpc64-linux-gnu-gcc"
 ar = "powerpc64-linux-gnu-ar"
 
-[target.powerpc64-unknown-linux-musl]
-linker = "powerpc64-linux-musl-gcc"
-ar = "powerpc64-linux-musl-ar"
-
 [target.powerpc64le-unknown-linux-gnu]
 linker = "powerpc64le-linux-gnu-gcc"
 ar = "powerpc64le-linux-gnu-ar"
-
-[target.powerpc64le-unknown-linux-musl]
-linker = "powerpc64le-linux-musl-gcc"
-ar = "powerpc64le-linux-musl-ar"
 
 [target.riscv64gc-unknown-linux-gnu]
 linker = "riscv64-linux-gnu-gcc"
