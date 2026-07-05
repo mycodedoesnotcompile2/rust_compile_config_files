@@ -29,6 +29,10 @@ linker = "mips64el-linux-gnuabi64-gcc"
 [target.mips64el-unknown-linux-muslabi64]
 linker = "mips64el-linux-muslabi64-gcc"
 
+[target.powerpc-unknown-linux-gnu]
+linker = "powerpc-linux-gnu-gcc"
+ar = "powerpc-linux-gnu-ar"
+
 [target.powerpc64-unknown-linux-gnu]
 linker = "powerpc64-linux-gnu-gcc"
 ar = "powerpc64-linux-gnu-ar"
@@ -40,10 +44,6 @@ ar = "powerpc64-linux-musl-ar"
 [target.powerpc64le-unknown-linux-gnu]
 linker = "powerpc64le-linux-gnu-gcc"
 ar = "powerpc64le-linux-gnu-ar"
-
-[target.powerpc-unknown-linux-gnu]
-linker = "powerpc-linux-gnu-gcc"
-ar = "powerpc-linux-gnu-ar"
 
 [target.powerpc64le-unknown-linux-musl]
 linker = "powerpc64le-linux-musl-gcc"
