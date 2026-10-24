@@ -58,6 +58,9 @@ linker = "s390x-linux-gnu-gcc"
 linker = "i686-w64-mingw32-gcc"
 ar = "i686-w64-mingw32-ar"
 
+[target.x86_64-unknown-linux-musl]
+linker = "x86_64-unknown-linux-musl-gcc"
+
 [env]
 CC_i686_win7_windows_gnu = "i686-w64-mingw32-gcc"
 CXX_i686_win7_windows_gnu = "i686-w64-mingw32-g++"
