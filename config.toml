@@ -65,3 +65,6 @@ AR_i686_win7_windows_gnu = "i686-w64-mingw32-ar"
 
 CC_loongarch64_unknown_linux_gnu = "loongarch64-linux-gnu-gcc-14"
 AR_loongarch64_unknown_linux_gnu = "loongarch64-linux-gnu-ar"
+
+CC_arm_unknown_linux_gnueabihf = "arm-linux-gnueabihf-gcc"
+CXX_arm_unknown_linux_gnueabihf = "arm-linux-gnueabihf-g++"
