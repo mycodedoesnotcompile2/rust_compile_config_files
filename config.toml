@@ -1,3 +1,6 @@
+# https://doc.rust-lang.org/rustc/platform-support.html
+# https://rust-lang.github.io/rustup-components-history/
+
 [target.armv7-unknown-linux-gnueabihf]
 linker = "arm-linux-gnueabihf-gcc"
 
