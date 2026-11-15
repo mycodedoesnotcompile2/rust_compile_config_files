@@ -41,6 +41,7 @@ image = "ghcr.io/cross-rs/armv5te-unknown-linux-musleabi:main"
 
 [target.armv7-linux-androideabi]
 image = "ghcr.io/cross-rs/armv7-linux-androideabi:main"
+env.passthrough = ["ANDROID_NDK_HOME"]
 
 [target.armv7-unknown-linux-gnueabi]
 image = "ghcr.io/cross-rs/armv7-unknown-linux-gnueabi:main"
