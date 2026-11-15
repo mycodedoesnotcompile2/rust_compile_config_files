@@ -3,6 +3,7 @@
 # =========================
 [target.aarch64-linux-android]
 image = "ghcr.io/cross-rs/aarch64-linux-android:main"
+env.passthrough = ["ANDROID_NDK_HOME"]
 
 [target.aarch64-unknown-linux-gnu]
 image = "ghcr.io/cross-rs/aarch64-unknown-linux-gnu:main"
